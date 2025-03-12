@@ -1,0 +1,7 @@
+title: Rollo The Great's Blog
+email: N/A
+description: >- # this is a comment means ignore until "baseurl:"
+  Welcome to my blog!
+baseurl: "" #should be empty for local development
+url: "http://127.0.0.1:4000" # Localhost URL for local development github.com/ReallyCoolData/RolloTheGreat.github.io
+github_username: carlos 
