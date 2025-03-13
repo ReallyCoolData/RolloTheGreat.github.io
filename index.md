@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Home
+layout: blog
+title: Blog
 ---
 # Welcome to ROLLO THE GREAT's website and Blog
 
