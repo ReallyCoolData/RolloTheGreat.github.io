@@ -1,0 +1,16 @@
+# Ignore build directories
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata/
+
+# Ignore log files
+*.log
+
+# Ignore Ruby dependencies
+.bundle/
+Gemfile.lock
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db

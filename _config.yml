@@ -15,10 +15,24 @@ baseurl: "" #should be empty for local development
 
 #github_username: carlos 
 
-# General settings
+
+# Theme
 # ---------------------------------------------------------------------------------------
+
+# This will use the gem `jekyll-theme-hydejack`, as defined in the sibling `Gemfile`.
 theme: jekyll-theme-hydejack
 
+# You can uncomment `theme` above and replace it with `remote_theme` here iff you are using the 
+# `jekyll-remote-theme` plugin (which is the case when using the legacy GitHub Pages pipeline).
+# This will fetch the `v9` branch of the public Hydejack repository on GitHub.
+# remote_theme: hydecorp/hydejack@v9
+
+# OTHER THEMES
+#theme: jekyll-theme-cayman
+#remote_theme: pages-theme/cayman@v0.2.0
+
+# General settings
+# ---------------------------------------------------------------------------------------
 title: Rollo The Great - A dog's life!
 
 email: RolloTheGreatDog@outlook.com
@@ -26,6 +40,24 @@ email: RolloTheGreatDog@outlook.com
 description: >- # this is a comment means ignore until "baseurl:"
   This website features Rollo; a Poodle-Rottweiler mix aka a Roddle or a RottiPoo! Get to know his puppy-to-adult trials and tribulations and follow all of his adventures.
 
+
+# A shorter description for the sidebar.
+tagline:               The wonderful world of Rollo, the Roddle!
+
+# A list of keywords for your blog
+keywords:              [Poodle Rottweiler Roddle Rottiepoo dog Rollo]
+
+# A (square) logo for your site.
+# If provided, it will be shown at the top of the sidebar.
+# It also used by the `jekyll-seo-tag` plugin.
+logo:                  /assets/img/logo.png
+
+# Add links to the sidebar
+menu:
+ - title: Blog
+   url: /
+ - title: About
+   url: /about/
 
 # Customization
 #----------------------------------------------------------------------------
@@ -35,9 +67,22 @@ description: >- # this is a comment means ignore until "baseurl:"
 accent_image: /assets/images/Rollo.jpg
 accent_color: rgb(79,125,190)
 
-# Add links to the sidebar
-menu:
- - title: Blog
-   url: /blog/
- - title: About
-   url: /about/
+
+# plugins
+plugins:
+# - jekyll-remote-theme
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  - jekyll-include-cache
+  - jekyll-last-modified-at
+
+paginate: 10
+paginate_path: "/blog/page:num/"
