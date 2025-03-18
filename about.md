@@ -1,5 +1,7 @@
 ---
 layout: about
+title: About
+permalink: /about/
 description: >
   Rollo's personal web site for dog lovers, and all nice people!
 hide_description: true
