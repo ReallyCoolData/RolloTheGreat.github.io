@@ -8,8 +8,6 @@ hide_description: true
 #  - /download/
 ---
 
-# About
-
 <!--author-->
 
 ## Rollo's Web Page
@@ -21,7 +19,6 @@ A boutique Website for Rollo The Great!
 {:toc .large-only}
 
 ![Screenshot](/assets/images/IMG_20250314_082111302_AE_crop.jpg){:.lead width="1920" height="1080" loading="lazy"}
-
 Rollo's Photo Shot
 {:.figcaption}
 
