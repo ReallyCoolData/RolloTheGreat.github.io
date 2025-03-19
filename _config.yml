@@ -39,14 +39,14 @@ title: Rollo The Great - A dog's life!
 email: RolloTheGreatDog@outlook.com
 
 description: >- # this is a comment means ignore until "baseurl:"
-  This website features Rollo; a Poodle-Rottweiler mix aka a Roddle or a RottiPoo! Get to know his puppy-to-adult trials and tribulations and follow all of his adventures.
+  This website features Rollo; a Poodle-Rottweiler mix aka a Rottle or a RottiPoo! Get to know his puppy-to-adult trials and tribulations and follow all of his adventures.
 
 
 # A shorter description for the sidebar.
-tagline:               The wonderful world of Rollo, the Roddle!
+tagline:               The wonderful world of Rollo, the Rottle!
 
 # A list of keywords for your blog
-keywords:              [Poodle Rottweiler Roddle Rottiepoo dog Rollo]
+keywords:              [Poodle Rottweiler Rottle Rottiepoo dog Rollo]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -64,7 +64,6 @@ menu:
 #----------------------------------------------------------------------------
 
 # Sidebar image and theme color of the site
-#accent_image: /assets/img/foggy-forest.jpg
 accent_image: /assets/images/Rollo.jpg
 accent_color: rgb(79,125,190)
 
